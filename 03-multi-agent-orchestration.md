@@ -2,6 +2,8 @@
 ---
 # Module 3: Multi-agent orchestration
 
+> 📖 **Reading this in VS Code?** The language tabs only render on the web. [**Open the rendered version ↗**](https://dirien.github.io/pulumi-ai-aws-bedrock-workshop/03-multi-agent-orchestration)
+
 **Duration:** ~40 minutes
 
 ## What you'll learn
@@ -93,6 +95,10 @@ first (`cd -` returns to wherever you were before; adjust if needed):
 ```bash
 cd -
 ```
+
+> ℹ️ **The TypeScript/Python tabs are the Pulumi *infrastructure* language only.**
+> The agents themselves are **Python in both tracks**. Pick the IaC language you
+> prefer — the deployed agents are identical.
 
 <div class="lang-tabs" markdown="1">
 

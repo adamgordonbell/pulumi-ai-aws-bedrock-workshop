@@ -2,6 +2,8 @@
 ---
 # Module 0: Setup, orientation and intro
 
+> 📖 **Reading this in VS Code?** The language tabs only render on the web. [**Open the rendered version ↗**](https://dirien.github.io/pulumi-ai-aws-bedrock-workshop/00-setup-and-orientation)
+
 **Duration:** ~20 minutes
 
 ## What you'll learn
@@ -80,15 +82,13 @@ Wait for the devcontainer to build (takes a couple of minutes). All tools (Pulum
 
 ## Step 1: Log into Pulumi Cloud
 
-If you haven't already, create a free Pulumi account.
+If you haven't already, [create a free Pulumi account](https://app.pulumi.com/signup).
 
 ### In Codespaces: log in with an access token
 
 A Codespace can't open a browser window on your machine, so use a token instead. (This flow works locally too, if you prefer it.)
 
-Go to the Pulumi Cloud UI and click on your user account.
-
-Select `Personal access tokens` and create an access token.
+Go to [**Personal access tokens**](https://app.pulumi.com/account/tokens) in the Pulumi Cloud UI (or click your avatar → Settings → Access Tokens), click **Create token**, give it a description, and **copy it now — it's shown only once**.
 
 Then log in from the terminal:
 

@@ -2,6 +2,8 @@
 ---
 # Module 2: Your first agent on AgentCore
 
+> 📖 **Reading this in VS Code?** The language tabs only render on the web. [**Open the rendered version ↗**](https://dirien.github.io/pulumi-ai-aws-bedrock-workshop/02-your-first-agent)
+
 **Duration:** ~30 minutes
 
 ## What you'll learn
@@ -17,6 +19,11 @@ In Module 1 you ran `basic_agent.py` on your laptop and called it on
 `localhost:8080`. Nothing about that agent changes now - we're going to ship the
 *exact same file* to Amazon Bedrock AgentCore so it runs in the cloud and you can
 invoke it from anywhere.
+
+> ℹ️ **A note on the language tabs below.** You'll choose **TypeScript or Python**
+> for the Pulumi infrastructure. That choice is about the *infra* only — the agent
+> code (`basic_agent.py`) is **Python in both tracks**. Pick whichever IaC language
+> you're comfortable with; the deployed agent is the same either way.
 
 ## Key concepts
 
